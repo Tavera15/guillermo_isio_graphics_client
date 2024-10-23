@@ -7,6 +7,7 @@ function HomePage()
 {
     return(
         <div className="d-flex row justify-content-center home-bg">
+
             <div className="col-12 home-intro">
                 <div className="col-12 col-md-12 p-4 text-center">
                     <h1 className="display-1">Guillermo Isio</h1>
@@ -15,28 +16,46 @@ function HomePage()
                 </div>
             </div>
 
-            <div className="col-10 p-4 home-services">
-                <p className="display-6">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</p>
+            <div className="m-0 p-0 mt-4 mb-4 col-10 d-flex row justify-content-center" >
+                <div className="col-12 p-4 d-flex row home-services">
 
-                <Carousel className="col-12 border">
-                    <Carousel.Item >
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                        <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                    </Carousel.Item>
-                </Carousel>
+                    <div className="col-12 col-lg-4 p-2 p-lg-4 border d-flex flex-wrap align-content-center">
+                        <h4 className="displasay-6">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
+                    </div>
+                    <div className="col-12 col-lg-4 p-2 p-lg-4 border d-flex flex-wrap align-content-center">
+                        <h4 className="displasay-6">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
+                    </div>
+                    <div className="col-12 col-lg-4 p-2 p-lg-4 border d-flex flex-wrap align-content-center">
+                        <h4 className="displasay-6">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
+                    </div>
 
-                <Button className="mt-4 mb-4 btn-lg">Ver Portfolio</Button>
+                    <div className="col-0 col-lg-1"></div>
+
+                    <div className="col-12 col-lg-12 p-0" >
+                        <Carousel className="col-12 m-0">
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            </Carousel.Item>
+
+                        </Carousel>
+                    </div>
+
+                </div>
+                <div className="">
+                    <Button className="mt-4 btn-lg">Ver Portfolio</Button>
+                </div>
             </div>
 
             <div id='contact' className="bg-dark">
