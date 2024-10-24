@@ -1,0 +1,36 @@
+
+.banner{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/69/30/78/1000_F_469307833_e3VQbYDuXeLuWwtlno9UOTOZbGLUm2MJ.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    color: white;
+    
+    min-height: 25rem;
+    min-width: 100vw;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
