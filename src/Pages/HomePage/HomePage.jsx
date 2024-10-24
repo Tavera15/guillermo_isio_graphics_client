@@ -31,7 +31,7 @@ function HomePage()
 
                     <div className="col-0 col-lg-1"></div>
 
-                    <div className="col-12 col-lg-12 p-0 mt-4" >
+                    <div className="col-12 p-0 mt-4 d-none d-lg-block" >
                         <Carousel className="col-12 m-0">
                             <Carousel.Item >
                                 <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
@@ -47,6 +47,39 @@ function HomePage()
                                 <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
                                 <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
                                 <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            </Carousel.Item>
+
+                        </Carousel>
+                    </div>
+
+                    <div className="col-12 p-0 d-none d-sm-block d-lg-none">
+                        <Carousel className="col-12 m-0">
+                            <Carousel.Item className="">
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            </Carousel.Item>
+
+                        </Carousel>
+                    </div>
+
+                    <div className="col-12 p-0 d-block d-sm-none">
+                        <Carousel className="col-12 m-0">
+                            <Carousel.Item className="">
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
                             </Carousel.Item>
 
                         </Carousel>
