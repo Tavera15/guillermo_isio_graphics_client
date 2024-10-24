@@ -6,28 +6,45 @@ import "./HomePage.css";
 function HomePage()
 {
     return(
-        <div className="d-flex row justify-content-center home-bg">
+        <div className="d-flex row justify-content-center m-0">
+            <div className="d-flex justify-content-center align-items-end align-content-end">
 
-            <div className="col-12 home-intro">
-                <div className="col-12 col-md-12 p-4 text-center">
-                    <h1 className="display-1">Jose Guillermo Isio</h1>
+                <div className="col-12 d-flex row justify-content-center align-items-end p-4 home-intro ">
+                    <div className="col-12 col-md-12 text-center">
+                        <h1 className="display-1">Jose Guillermo Isio</h1>
 
-                    <p className="display-6 align-self-end">Diseñador Gráfico</p>
+                        <p className="display-3 ">Diseñador Gráfico</p>
+                    </div>
+
+                    <div className="col-12 col-md-8 d-flex justify-content-center">
+                        <h3 className="display-6s">Servicios Graficos Para tarjetas de presentacion, flyers, posters, camisetas, menus, banners y mucho mas!</h3>
+                    </div>
                 </div>
             </div>
 
             <div className="m-0 p-0 mt-4 mb-4 col-10 d-flex row justify-content-center" >
                 <div className="col-12 p-0 d-flex row home-services">
 
-                    <div className="col-12 col-md-4 p-2 p-md-4 border d-flex flex-wrap align-content-center">
-                        <h4 className="">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
-                    </div>
-                    <div className="col-12 col-md-4 p-2 p-md-4 border d-flex flex-wrap align-content-center">
-                        <h4 className="">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
-                    </div>
-                    <div className="col-12 col-md-4 p-2 p-md-4 border d-flex flex-wrap align-content-center">
-                        <h4 className="">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h4>
-                    </div>
+                    {/* <div className="col-12 p-0 mt-4 mb-4 d-flex justify-content-center" >
+                        <Carousel className="col-12 col-lg-5 m-0 p-lg-4">
+                            <Carousel.Item >
+                            <div className="col-12 border d-flex flex-wrap align-content-center">
+                                <h2 className="p-4">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h2>
+                            </div>
+                            </Carousel.Item>
+                            <Carousel.Item >
+                            <div className="col-12 border d-flex flex-wrap align-content-center">
+                                <h2 className="p-4">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h2>
+                            </div>
+                            </Carousel.Item>
+                            <Carousel.Item >
+                            <div className="col-12 border d-flex flex-wrap align-content-center">
+                                <h2 className="p-4">Servicios de diseños para tarjetas de precentacion, flyers, camisetas, banners y mucho mas!</h2>
+                            </div>
+                            </Carousel.Item>
+
+                        </Carousel>
+                    </div> */}
 
                     <div className="col-0 col-lg-1"></div>
 
