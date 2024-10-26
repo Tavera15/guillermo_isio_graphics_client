@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect} from 'react'
+import { useLayoutEffect} from 'react'
 import {BrowserRouter as Router, Route, Routes, useLocation} from "react-router-dom";
 import './App.css'
 import HomePage from './Pages/HomePage/HomePage'

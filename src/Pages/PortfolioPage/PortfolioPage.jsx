@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import "./PortfolioPage.css";
 import PortfolioCard from "../../Components/PortfolioCard/PortfolioCard";
 
@@ -9,33 +9,6 @@ function PortfolioPage()
             <div className="col-12 d-flex justify-content-center banner">
                 <img src="https://www.diabetes.ie/wp-content/uploads/2021/05/logo-Placeholder.jpg" alt="logo"/>
             </div>
-            {/* <ul class="nav justify-content-center services-nav" style={{"overflow": "auto", "overflowX": "scroll"}}>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-            </ul> */}
 
             <div className="scrollmenu">
                 <a href="#home">Home</a>
@@ -52,23 +25,6 @@ function PortfolioPage()
                 <a href="#friends">Friends</a>
                 <a href="#partners">Partners</a>
                 <a href="#people">People</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
-                <a href="#work">Work</a>
                 <a href="#work">Work</a>
             </div>
 
