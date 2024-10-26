@@ -1,13 +1,14 @@
 import React from "react";
 import "./PortfolioPage.css";
 import PortfolioCard from "../../Components/PortfolioCard/PortfolioCard";
+import logo from "../../assets/logo.png";
 
 function PortfolioPage()
 {
     return(
         <div className="d-flex m-0 row justify-content-start">
             <div className="col-12 d-flex justify-content-center banner">
-                <img src="https://www.diabetes.ie/wp-content/uploads/2021/05/logo-Placeholder.jpg" alt="logo"/>
+                <img src={logo} className="col-12 col-sm-4" alt="logo"/>
             </div>
 
             <div className="scrollmenu">
