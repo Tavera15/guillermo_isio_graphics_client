@@ -17,7 +17,7 @@ function HomePage()
                     </div>
 
                     <div className="col-12 col-md-8 d-flex justify-content-center">
-                        <h3 className="display-6s">Servicios Graficos Para tarjetas de presentacion, flyers, posters, camisetas, menus, banners y mucho mas!</h3>
+                        <h3 className="display-6s">Servicios Graficos Para Tarjetas de Presentacion, Flyers, Posters, Camisetas, Menus, Banners y Mucho Mas!</h3>
                     </div>
                 </div>
             </div>
@@ -50,20 +50,15 @@ function HomePage()
 
                     <div className="col-12 p-0 mt-4 d-none d-lg-block" >
                         <Carousel className="col-12 m-0">
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-4" />
                             </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                            </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-4" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-4" />
+                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-4" />
                             </Carousel.Item>
 
                         </Carousel>
@@ -71,17 +66,17 @@ function HomePage()
 
                     <div className="col-12 p-0 d-none d-sm-block d-lg-none">
                         <Carousel className="col-12 m-0">
-                            <Carousel.Item className="">
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-6" />
                             </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-6" />
                             </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-6" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-6" />
+                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-6" />
                             </Carousel.Item>
 
                         </Carousel>
@@ -89,14 +84,23 @@ function HomePage()
 
                     <div className="col-12 p-0 d-block d-sm-none">
                         <Carousel className="col-12 m-0">
-                            <Carousel.Item className="">
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-12" />
                             </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-12" />
                             </Carousel.Item>
-                            <Carousel.Item >
-                                <img src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg" alt="placeholder" className="col-12" />
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-12" />
+                            </Carousel.Item>
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-12" />
+                            </Carousel.Item>
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-12" />
+                            </Carousel.Item>
+                            <Carousel.Item className="carouselItem">
+                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-12" />
                             </Carousel.Item>
 
                         </Carousel>
