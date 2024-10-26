@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./PortfolioPage.css";
 import PortfolioCard from "../../Components/PortfolioCard/PortfolioCard";
 
