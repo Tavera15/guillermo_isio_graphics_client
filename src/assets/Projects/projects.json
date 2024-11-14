@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Hartz Chicken Buffet",
+        "category": "Business Cards",
+        "src": "HartzChickenBuffetCard.png"
+    },
+    {
+        "name": "Las Lomas",
+        "category": "Menus",
+        "src": "LasLomasMenu.png"
+    },
+    {
+        "name": "Jaimito Auto Body Shop",
+        "category": "Business Cards",
+        "src": "JaimitoAutoBodyShop.png"
+    },
+    {
+        "name": "Eustorgio Barrientos",
+        "category": "Business Cards",
+        "src": "EustorgioBarrientosBusinessCard.png"
+    },
+    {
+        "name": "Jairo Towing Service",
+        "category": "Magnetic Signs",
+        "src": "JairoTowingService.png"
+    }
+]
