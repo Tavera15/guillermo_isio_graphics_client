@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./PortfolioPage.css";
 import PortfolioCard from "../../Components/PortfolioCard/PortfolioCard";
 import logo from "../../assets/logo.png";
-import data from "../../../public/Projects/projects.json";
+import data from "../../projects.json";
 
 function PortfolioPage()
 {
