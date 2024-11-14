@@ -6,11 +6,10 @@ import data from "../../assets/Projects/projects.json";
 
 function PortfolioPage()
 {
-    const [projects, setProjects] = useState([]);
     const [categories, setCategories] = useState(new Set());
 
     useEffect(() => {
-        data.map((d, i) => {
+        data.map((d) => {
             setCategories(prev => new Set([...prev, d.category]))
         })
     }, [])

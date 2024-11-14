@@ -32,7 +32,7 @@ function PortfolioCard({name, category, src})
 
             <div onClick={() => setModalShow(true)}>
                 {
-                    <img className="card-img-top border" src={photo} style={{"height": "15rem", "objectFit": "cover"}} alt="Card image cap" />
+                    <img className="card-img-top border" src={photo} style={{"height": "15rem", "objectFit": "cover"}} alt={name} />
                 }
                 <div className="card-body mt-2 mb-2">
                     <h4 className="card-text">{name}</h4>
