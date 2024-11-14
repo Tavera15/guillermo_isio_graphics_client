@@ -3,7 +3,7 @@ import { Button, Modal } from "react-bootstrap";
 
 function PortfolioCard({name, category, src})
 {
-    const projectsDir = "../../assets/Projects/"
+    const projectsDir = "/Projects/"
     const [photo, setPhoto] = useState("");
 
     useEffect(() => {
