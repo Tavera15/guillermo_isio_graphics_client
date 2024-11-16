@@ -23,7 +23,8 @@ div.scrollmenu {
     width: 100vw;
   }
   
-  div.scrollmenu a {
+  div.scrollmenu button {
+    background-color: inherit;
     display: inline-block;
     color: white;
     text-align: center;
@@ -31,6 +32,7 @@ div.scrollmenu {
     text-decoration: none;
   }
   
-  div.scrollmenu a:hover {
+  div.scrollmenu button:hover {
     background-color: #777;
+    border-color: transparent;
   }

@@ -3,6 +3,12 @@ import { Carousel } from "react-bootstrap";
 import "./HomePage.css";
 import { Link } from "react-router-dom";
 
+import fav1 from "/Projects/Business Cards/HartzChickenBuffetCard.png"
+import fav2 from "/Projects/Business Cards/EustorgioBarrientosBusinessCard.png"
+import fav3 from "/Projects/Business Cards/JaimitoAutoBodyShop.png"
+import fav4 from "/Projects/Menus/LasLomasMenu.png"
+import fav5 from "/Projects/Magnetic Signs/JairoTowingService.png"
+
 
 function HomePage()
 {
@@ -18,13 +24,14 @@ function HomePage()
                     </div>
 
                     <div className="col-12 col-md-8 d-flex justify-content-center">
-                        <h3 className="display-6s">Servicios Graficos Para Tarjetas de Presentacion, Flyers, Posters, Camisetas, Menus, Banners y Mucho Mas!</h3>
+                        <h3 className="">Servicios Graficos Para Tarjetas de Presentacion, Flyers, Posters, Camisetas, Menus, Banners y Mucho Mas!</h3>
                     </div>
                 </div>
             </div>
 
             <div className="m-0 p-0 mt-4 mb-4 col-10 d-flex row justify-content-center" >
                 <div className="col-12 p-0 d-flex row home-services">
+                    <h1>Proyectos</h1>
 
                     {/* <div className="col-12 p-0 mt-4 mb-4 d-flex justify-content-center" >
                         <Carousel className="col-12 col-lg-5 m-0 p-lg-4">
@@ -49,17 +56,17 @@ function HomePage()
 
                     <div className="col-0 col-lg-1"></div>
 
-                    <div className="col-12 p-0 mt-4 d-none d-lg-block" >
+                    <div className="col-12 p-0 mt-2 d-none d-lg-block" >
                         <Carousel className="col-12 m-0">
                             <Carousel.Item className="carouselItem">
-                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-4" />
+                                <img src={fav1} alt="fav1" className="col-4" />
+                                <img src={fav2} alt="fav2" className="col-4" />
+                                <img src={fav3} alt="fav3" className="col-4" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-4" />
-                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-4" />
+                                <img src={fav4} alt="fav4" className="col-4" />
+                                <img src={fav5} alt="fav5" className="col-4" />
+                                <img src={fav1} alt="fav6" className="col-4" />
                             </Carousel.Item>
 
                         </Carousel>
@@ -68,16 +75,16 @@ function HomePage()
                     <div className="col-12 p-0 d-none d-sm-block d-lg-none">
                         <Carousel className="col-12 m-0">
                             <Carousel.Item className="carouselItem">
-                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-6" />
+                                <img src={fav1} alt="fav1" className="col-6" />
+                                <img src={fav2} alt="fav2" className="col-6" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-6" />
+                                <img src={fav3} alt="fav3" className="col-6" />
+                                <img src={fav4} alt="fav4" className="col-6" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-6" />
-                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-6" />
+                                <img src={fav5} alt="fav5" className="col-6" />
+                                <img src={fav1} alt="fav1" className="col-6" />
                             </Carousel.Item>
 
                         </Carousel>
@@ -86,29 +93,29 @@ function HomePage()
                     <div className="col-12 p-0 d-block d-sm-none">
                         <Carousel className="col-12 m-0">
                             <Carousel.Item className="carouselItem">
-                                <img src="https://marketplace.canva.com/EAFQHkE0bec/1/0/1600w/canva-red-black-creative-modern-business-card-LqUfJRUvvrI.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav1} alt="fav1" className="col-12" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://marketplace.canva.com/EAFUj7uKPZI/1/0/1600w/canva-modern-creative-business-card-WtpSYS6bMZ4.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav2} alt="fav2" className="col-12" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://templates.designwizard.com/75442f90-1550-11e8-a532-41cc5dc1baad.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav3} alt="fav3" className="col-12" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav4} alt="fav4" className="col-12" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/restaurant-menu-design-1.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav5} alt="fav5" className="col-12" />
                             </Carousel.Item>
                             <Carousel.Item className="carouselItem">
-                                <img src="https://blog.photoadking.com/wp-content/uploads/2023/04/1682070770785.jpg" alt="placeholder" className="col-12" />
+                                <img src={fav1} alt="fav6" className="col-12" />
                             </Carousel.Item>
 
                         </Carousel>
                     </div>
 
                 </div>
-                <div className="mt-4">
+                <div className="mt-2">
                     <Link to='/Portfolio' className="btn btn-primary btn-lg">Ver Portfolio</Link>
                 </div>
             </div>
