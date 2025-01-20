@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Footer()
 {
@@ -6,6 +7,7 @@ function Footer()
     const [phone, setPhone] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
+    const form = useRef();
 
     function onClear(e)
     {
@@ -21,16 +23,23 @@ function Footer()
     {
         e.preventDefault();
 
-        alert(`Mensaje Enviado!
-            \nNombre: ${name}
-            \nTelefono: ${phone}
-            \nSujeto: ${subject}
-            \nMensaje: ${message}`)
-
-            setName("");
-            setPhone("");
-            setSubject("");
-            setMessage("");
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, {
+            publicKey: import.meta.env.VITE_PUBLIC_ID
+        })
+        .then(
+            () => 
+            {
+                alert("Mensaje Enviado!");
+                setName("");
+                setPhone("");
+                setSubject("");
+                setMessage("");
+            },
+            () => 
+            {
+                alert("No se pudo enviar este mensaje en este momento")
+            }
+        )
     }
 
     return(
@@ -38,7 +47,7 @@ function Footer()
             <div className="container contact-form p-4">
                 <h1>Contactar</h1>
 
-                <form onSubmit={(e) => onSent(e)} onReset={(e) => onClear(e)} className="col-md-6">
+                <form ref={form} onSubmit={(e) => onSent(e)} onReset={(e) => onClear(e)} className="col-md-6">
                     <div className="row">
 
                         <div className="mb-3 col-md-6">
@@ -46,7 +55,7 @@ function Footer()
                         </div>
 
                         <div className="mb-3 col-md-6">
-                            <input value={phone} onChange={(e) => setPhone(e.target.value)} type="text" className="form-control" id="validationCustom02" name="client-phone" placeholder="Telefono" required />
+                            <input value={phone} onChange={(e) => setPhone(e.target.value)} type="text" className="form-control" id="validationCustom02" name="client_phone" placeholder="Telefono" required />
                         </div>
                     </div>
 
@@ -55,7 +64,7 @@ function Footer()
                     </div>
 
                     <div className="mb-3">
-                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="form-control" rows={4} name="message" placeholder="Mensaje"></textarea>
+                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="form-control" rows={4} name="message" placeholder="message" required></textarea>
                     </div>
 
                     <div className="d-flex justify-content-between">
