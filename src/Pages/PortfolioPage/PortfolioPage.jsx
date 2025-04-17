@@ -36,7 +36,7 @@ function PortfolioPage()
             </div>
 
             <div className="scrollmenu">
-                <button onClick={(e) => setFilter("")} href="#home">Home</button>
+                <button onClick={(e) => setFilter("")} href="#home">Todo</button>
                 {
                     [...categories].map((c, i) => (<button onClick={(e) => setFilter(c)} key={i}>{c}</button>))
                 }

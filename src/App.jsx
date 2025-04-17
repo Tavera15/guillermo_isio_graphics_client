@@ -22,9 +22,10 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
-            <Route exact path='/' element={<HomePage />} />
 
-            <Route exact path='/Portfolio' element={<PortfolioPage />} />
+            {/* <Route exact path='/' element={<HomePage />} /> */}
+
+            <Route exact path='/' element={<PortfolioPage />} />
           </Routes>
 
           <Footer />
